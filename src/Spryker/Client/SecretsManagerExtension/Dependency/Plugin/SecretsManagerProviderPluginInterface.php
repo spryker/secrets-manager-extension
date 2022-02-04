@@ -14,7 +14,7 @@ use Generated\Shared\Transfer\SecretTransfer;
  *
  * Use this plugin if there is a secret value that needs to be protected.
  */
-interface SecretsManagerClientPluginInterface
+interface SecretsManagerProviderPluginInterface
 {
     /**
      * Specification:
